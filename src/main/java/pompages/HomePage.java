@@ -17,7 +17,7 @@ public class HomePage {
 	private WebElement searchButton;
 	@FindBy(xpath = "//ul[@class=\"gender-list\"]/child::li/child::label[text()='Men']")
 	private WebElement selectMen;
-	@FindBy(xpath = "//div[@class=\"product-productMetaInfo\"]/descendant::span[text()='296']")
+	@FindBy(xpath = "//h4[.='Running Bio-Wash Pure Cotton T-shirt']")
 	private WebElement tshirt;
 	@FindBy(xpath = "//a[@data-group='women']")
 	private WebElement womenTab;
