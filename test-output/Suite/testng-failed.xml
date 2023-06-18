@@ -3,15 +3,6 @@
 <suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="1" name="Test(failed)">
     <classes>
-      <class name="testScripts.Script2">
-        <methods>
-          <include name="classConfiguration"/>
-          <include name="methodConfiguration"/>
-          <include name="secondTest"/>
-          <include name="classTearDown"/>
-          <include name="methodTearDown"/>
-        </methods>
-      </class> <!-- testScripts.Script2 -->
       <class name="testScripts.Script1">
         <methods>
           <include name="classConfiguration"/>
