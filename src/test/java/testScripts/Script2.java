@@ -7,6 +7,8 @@ import org.testng.asserts.SoftAssert;
 
 import genricLibraries.BaseClass;
 
+
+
 public class Script2 extends BaseClass{
 	
 	@Test
